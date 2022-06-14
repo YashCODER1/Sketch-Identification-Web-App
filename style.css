@@ -1,0 +1,30 @@
+body{
+    background: rgb(228, 176, 65);
+}
+h1{
+    color: darkgreen;
+    background: cornsilk;
+    font-family: Indie Flower;
+    font-weight: bold;
+    margin-top: 7px;
+}
+#show_sketch{
+    float: right;
+    font-size: 17px;
+}
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 50px;
+}
+@keyframes example{
+    from{box-shadow: 1px,1px,38px grey;}
+    to{box-shadow: 1px,1px,38px white;}
+}
+p{
+    padding-top: 3px;
+    font-size: 25px;
+}
